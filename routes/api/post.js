@@ -1,5 +1,0 @@
-
-
-
-
-//route api to posts
