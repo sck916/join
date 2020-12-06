@@ -1,29 +1,26 @@
-Coder's Lane:
+# Coder's Lane:
 
 Do you need a coder ASAP? No worries! Hop on coder's lane.
 
-Description:
+# Description:
 
 Our app allows the user to find a coder for any project or task they are working on. First off, our users create a username and password. Then, they are able to scroll/swipe through eligible coders to find their perfect "match". The coders have their email and what languages they are proficient in on their profile. When the user sees the coder they would like to reach out to, they can "match" with the coder and communicate from there! 
 
-Installation:
+# Installation:
 
 You must intall axios, express, mongoose, and if-env.
 
-New Tech:
+# New Tech:
 
 The new technology that we used involves Material-UI and Express Validator
 
-Credits:
+# Credits:
 
 Ben Resnicoff (https://github.com/)
 Maxence Jeanty (https://github.com/)
 Daniel Viramontes (https://github.com/danielviram)
 Steve Kavuu (https://github.com/)
 
-License: MIT License 
-
-Copyright (c) 2020 Ben Resnicoff, Chris Kalama, Agnes Chueng, Justin Yocus
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
