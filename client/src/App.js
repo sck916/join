@@ -1,11 +1,23 @@
+import React from "react";
+
 import './App.css';
+import "./App.css";
+import Header from "./Components/Header/Header";
+import JoinCards from "./Components/JoinCards/JoinCards";
+import SwipeButtons from "./Components/SwipeButtons/SwipeButtons";
 
 function App() {
   return (
-    <div>
-       <h2>hello world</h2>
+    <div className="App">
+      {/* Header */}
+      <Header />
+      {/* JoinCards */}
+      <joinCards />
+      {/* Swipe buttons */}
+      <SwipeButtons />
     </div>
   );
 }
 
 export default App;
+
