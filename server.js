@@ -1,22 +1,25 @@
 const express = require ("express");
 const cors = require ("cors");
 const path = require ("path");
-const { mongo, Mongoose } = require("mongoose");
+const mongoose  = require("mongoose");
 
 const app = express();
 app.use(cors());
 
+app.use(express.urlencoded({extended: true}));
+app.use(express.json());
+if(process.env.NODE_ENV === "production") {
+    app.use(express.static("client/build"))
+}
+
 require("./startup/routes")(app);
 require("./startup/db")();
 
-const CONNECTION_URL = "mongodb+srv://join:join123@cluster0.jmavo.mongodb.net/<dbname>?retryWrites=true&w=majority";
+// const CONNECTION_URL = "mongodb+srv://join:join123@cluster0.jmavo.mongodb.net/<dbname>?retryWrites=true&w=majority";
 
-const port = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 
-mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
-    .then(() => app.listen(PORT< () => console.log('Server running on port: ${PORT}')))
-    .catch((error) => console.log(error.message));
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/join", { useNewUrlParser: true, useUnifiedTopology: true })
+    
 
-mongoose.set('useFindAndModify', false);
-
-app.listen(port, () => console.log(`Listenining on port ${port}`));
+app.listen(PORT, () => console.log(`Listenining on port ${PORT}`));
