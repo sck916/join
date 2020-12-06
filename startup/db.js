@@ -1,3 +1,4 @@
+//connention to mongodb
 const mongoose = require("mongoose");
 
 const db = () => {

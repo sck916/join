@@ -6,6 +6,7 @@ const { mongo, Mongoose } = require("mongoose");
 const app = express();
 app.use(cors());
 
+require("./startup/routes")(app);
 require("./startup/db")();
 
 const CONNECTION_URL = "mongodb+srv://join:join123@cluster0.jmavo.mongodb.net/<dbname>?retryWrites=true&w=majority";
