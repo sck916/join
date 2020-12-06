@@ -18,7 +18,7 @@ Credits:
 
 Ben Resnicoff (https://github.com/)
 Maxence Jeanty (https://github.com/)
-Daniel Vieramontes (https://github.com/)
+Daniel Viramontes (https://github.com/danielviram)
 Steve Kavuu (https://github.com/)
 
 License: MIT License 
