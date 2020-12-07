@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-// user schema goes here
-=======
 const mongoose = require('mongoose');
 
 const UserSchema = new mongoose.Schema({
@@ -24,4 +21,3 @@ const UserSchema = new mongoose.Schema({
 
 module.exports = mongoose.model('user', UserSchema);
 ``
->>>>>>> Stashed changes
