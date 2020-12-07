@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 Coder's Lane:
 
 Do you need a coder ASAP? No worries! Hop on coder's lane.
@@ -42,3 +43,17 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+=======
+# join
+
+## Step One
+`npm install`
+## Step Two
+`node index.js`
+## Step Three
+`cd client`
+## Step Four
+`npm install`
+## Step Five
+`npm run start`
+>>>>>>> Stashed changes
