@@ -9,7 +9,7 @@ const db = () => {
       useFindAndModify: false,
       useCreateIndex: true,
     })
-    .then(() => console.log("Connected to MongoDB 🚀!"))
+    .then(() => console.log("Connected to MongoDB "))
     .catch((err) => console.log(err));
 };
 
