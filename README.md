@@ -17,10 +17,10 @@ The new technology that we used involves Material-UI and Express Validator
 
 Credits:
 
-Ben Resnicoff (https://github.com/)
-Maxence Jeanty (https://github.com/)
-Daniel Vieramontes (https://github.com/)
-Steve Kavuu (https://github.com/)
+Ben Resnicoff 
+Maxence Jeanty 
+Daniel Vieramontes 
+Steve Kavuu 
 
 License: MIT License 
 
