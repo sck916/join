@@ -1,13 +1,3 @@
-<<<<<<< Updated upstream
-// import express, router,validatio bcrypt
-
-
-
-
-
-// post route api to users
-// register user
-=======
 const express = require('express');
 const router = express.Router();
 const gravatar = require('gravatar');
@@ -94,4 +84,3 @@ router.post(
 );
 
 module.exports = router;
->>>>>>> Stashed changes

@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 Coder's Lane:
 
 Do you need a coder ASAP? No worries! Hop on coder's lane.
@@ -56,4 +56,4 @@ SOFTWARE.
 `npm install`
 ## Step Five
 `npm run start`
->>>>>>> Stashed changes
+>>>>>>> main
