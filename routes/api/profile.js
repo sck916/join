@@ -1,10 +1,8 @@
-<<<<<<< Updated upstream
 
 
 
 // route api to profile/me
 // getuser profile
-=======
 const express = require('express');
 const axios = require('axios');
 const config = require('config');
@@ -334,4 +332,3 @@ router.get('/github/:username', async (req, res) => {
 });
 
 module.exports = router;
->>>>>>> Stashed changes

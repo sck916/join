@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 Coder's Lane:
 
 Do you need a coder ASAP? No worries! Hop on coder's lane.
@@ -17,10 +16,10 @@ The new technology that we used involves Material-UI and Express Validator
 
 Credits:
 
-Ben Resnicoff (https://github.com/)
-Maxence Jeanty (https://github.com/)
-Daniel Vieramontes (https://github.com/)
-Steve Kavuu (https://github.com/)
+Ben Resnicoff 
+Maxence Jeanty 
+Daniel Vieramontes 
+Steve Kavuu 
 
 License: MIT License 
 
@@ -43,17 +42,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-=======
-# join
-
-## Step One
-`npm install`
-## Step Two
-`node index.js`
-## Step Three
-`cd client`
-## Step Four
-`npm install`
-## Step Five
-`npm run start`
->>>>>>> Stashed changes

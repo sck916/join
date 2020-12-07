@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 
 import React from "react";
 import './App.css';
@@ -6,7 +5,6 @@ import Header from './components/Header'
 import RegistrationForm from './components/RegistrationForm'
 import SwipeCards from './components/SwipeCards'
 import Login from './components/Login'
-=======
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Axios from "axios";
@@ -47,10 +45,8 @@ export default function App() {
 
     checkLoggedIn();
   }, []);
->>>>>>> Stashed changes
 
   return (
-<<<<<<< Updated upstream
     <div className="App">
    
 
@@ -67,7 +63,6 @@ export default function App() {
 }
 
 export default App;
-=======
     <>
       <BrowserRouter>
         <UserContext.Provider value={{ userData, setUserData }}>
@@ -82,6 +77,5 @@ export default App;
         </UserContext.Provider>
       </BrowserRouter>
     </>
-  );
-}
->>>>>>> Stashed changes
+  
+
